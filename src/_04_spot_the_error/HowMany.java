@@ -15,7 +15,7 @@ public class HowMany {
 	
 	public static int getRandomNumber() {
 		Random random = new Random();
-		int number = random.nextInt(99)+1;
+		int number = random.nextInt(100 - 1 + 1)+1;
 		return number;
 	}
 }
