@@ -31,17 +31,24 @@ public class AnimalFarm {
 		String input = JOptionPane.showInputDialog("what animal do you want?");	 
 			
 		/* 2. Make it so that the user can keep entering new animals. */
-if (input == "cow") {
-	
+if (input == "cow") {	
 	moo();
 }
 
 else if (input == "duck") {
-	
 	quack();
 }
-	
+
+else if (input == "dog") {
+	woof();
+}
+else if (input == "cat") {
+	meow(); {
+		
 	}
+}
+	}
+	
 	
 	
 
